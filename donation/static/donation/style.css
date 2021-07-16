@@ -168,6 +168,18 @@ body{
     font-size: 20px;
 }
 
+@media screen and (max-width: 480px)
+{
+    .topnav h1
+    {
+        margin-left: 3.5%;
+    }
+    .popup-form
+    {
+        width:92%
+    }
+}
+
 
 
 input[type=number][name=contact]::-webkit-inner-spin-button, 
