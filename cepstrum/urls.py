@@ -15,8 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from payment import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('donation/', include('donation.urls'))
+    path('donation/', include('donation.urls')),
+    path('payment/', views.homepage, name = 'payment'),
+    path('paymenthandler/', views.paymenthandler, name = 'paymenthandler'),
 ]
