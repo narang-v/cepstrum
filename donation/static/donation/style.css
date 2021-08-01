@@ -58,103 +58,24 @@ h1
     text-align: center;
     padding-top: 30px;
 }
-
-
- .work-area .drop-down
-{
-    
-    font-size: 15px;
-    display: block;
-    position:relative;
-    
-    
-    width:170px;
-    height:40px;
-    margin:0 auto;
-    font-size: 20px;
-    padding-left:10px;
-    border:none;
-    border-radius: 4px;
-    background-image: linear-gradient(to top,#022E57,#0057a8);
-    color:#ffff;
-}
-
-.drop-down option{
-    background: #022E57;
-    color: #ffff;
-    border-color:#022E57 ;
-    
-}
-.drop-down option:hover{
-    background-color: #0057a8;
-}
-#toggle-view{
-    display: none;
-}
-.payment
-{
-    font-size: 20px;
-}
-.payment input{
-    height:30px;
-    font-size: 20px;
-    width:150px;
-}
-
-.work-area .donate_button
+.donate-button
 {
     height:40px;
     width:100px;
-    
-    border-radius: 5px;
-    border-color:#022E57;
-    background-color: #022E57 ;
-    
-    color:white;
     font-size: 20px;
-    position:relative;
-    top:70%;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    
-    
+    border-radius: 5px;
+    border-color: #022E57;
+    background-color: #022E57;
+    color: #FFF;
 }
-
-.donate_button:hover{
-    color:#022E57;
+.donate-button:hover
+{
+    cursor: pointer;
     background-color: #FFF5FD;
+    color: #022E57;
     box-shadow: 0px 5px 5px #022E57;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 21px;
-
 }
-.work-area .reset_button
-{
-    height:40px;
-    width:100px;
-    
-    border-radius: 5px;
-    border-color:#022E57;
-    background-color: #022E57 ;
-    
-    color:white;
-    font-size: 20px;
-    position:relative;
-    top:70%;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    margin-right:12px;
-}
-
-.reset_button:hover{
-    color:#022E57;
-    background-color: white;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 21px;
-
-}
+ 
 
 
 
