@@ -12,6 +12,7 @@ function toggleButton() {
         bt.disabled = false;
         bt.style.cursor="pointer";
         btext.style.cursor="pointer";
+
     }
     else {
         bt.disabled = true;
